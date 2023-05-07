@@ -14,7 +14,7 @@ public class nota {
 
         int nota;
 
-        System.out.println("DIGITE UMA NOTA : ");
+        System.out.print("DIGITE UMA NOTA : ");
         nota = scan.nextInt();
 
         while (nota < 0 | nota > 10) {
