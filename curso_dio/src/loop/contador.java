@@ -11,11 +11,14 @@ public class contador {
 
         int numero;
         int maior = 0;
+        int soma = 0;
 
         int count = 0;
         do {
             System.out.print("Número : ");
             numero = scan.nextInt();
+
+            soma = soma + numero;
 
             if (numero > maior)
                 maior = numero;
@@ -23,6 +26,7 @@ public class contador {
             count = count + 1;
         } while (count < 5);
 
-        System.out.print("O Maior número : " + maior);
+        System.out.println("O Maior número : " + maior);
+        System.out.print("A média : " + soma);
     }
 }
