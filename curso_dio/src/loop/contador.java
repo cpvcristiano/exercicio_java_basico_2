@@ -27,6 +27,6 @@ public class contador {
         } while (count < 5);
 
         System.out.println("O Maior número : " + maior);
-        System.out.print("A média : " + soma);
+        System.out.print("A média : " + (soma / 5));
     }
 }
